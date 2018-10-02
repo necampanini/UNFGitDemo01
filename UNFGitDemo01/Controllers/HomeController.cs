@@ -13,6 +13,9 @@ namespace UNFGitDemo01.Controllers
             var rangeOfNumbers = Enumerable.Range(1, 15);
             var evenNumbers = rangeOfNumbers.Where(x => x % 2 == 0);
 
+            var x = 1;
+            var y = 2;
+
             return View();
         }
 
