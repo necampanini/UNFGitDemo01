@@ -10,6 +10,9 @@ namespace UNFGitDemo01.Controllers
     {
         public ActionResult Index()
         {
+            var rangeOfNumbers = Enumerable.Range(1, 15);
+            var evenNumbers = rangeOfNumbers.Where(x => x % 2 == 0);
+
             return View();
         }
 
